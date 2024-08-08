@@ -2,6 +2,25 @@ import React from 'react';
 import cabData from '../data/cabinet.json';
 import Link from 'next/link';
 
+export const metadata = {
+  openGraph: {
+    title: "Bangladesh Interim Govt Information",
+    description: ".",
+    url: 'https://bangladesh-interim-govt.vercel.app/',
+    siteName: "Bangladesh Interim Govt Information",
+    type: 'website',
+    images: [
+      {
+        url: 'https://images.prothomalo.com/prothomalo-bangla%2F2024-08-08%2F0tohwxpj%2FNew%20Govt%20list.jpg?auto=format%2Ccompress&fmt=webp&format=webp&w=640&dpr=2.0',
+        secureUrl: 'https://images.prothomalo.com/prothomalo-bangla%2F2024-08-08%2F0tohwxpj%2FNew%20Govt%20list.jpg?auto=format%2Ccompress&fmt=webp&format=webp&w=640&dpr=2.0',
+        width: 640,
+        height: 630,
+        alt: 'Preview image for Bangladesh Interim Govt Information',
+      }
+    ]
+  },
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-primary text-white px-4">
