@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { Analytics } from "@vercel/analytics/react"
 import './globals.css';
 
 export default function Layout({children}) {
@@ -8,6 +9,7 @@ export default function Layout({children}) {
     <Head>
       <title>Interim Government Cabinet</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+      <Analytics />
     </Head>
     <body>
     <div className="flex flex-col min-h-screen">
