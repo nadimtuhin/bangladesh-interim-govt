@@ -10,7 +10,7 @@ export default function Layout({children}) {
       <title>Interim Government Cabinet</title>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
       <Analytics />
-    <script defer data-domain="bangladesh-interim-govt.vercel.app" src="http://null.app.nadimtuhin.com/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
+    <script defer data-domain="bangladesh-interim-govt.vercel.app" src="https://null.app.nadimtuhin.com/js/script.file-downloads.hash.outbound-links.pageview-props.tagged-events.js"></script>
     <script
       dangerouslySetInnerHTML={{
         __html: `window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }`,
